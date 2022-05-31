@@ -1,0 +1,38 @@
+.create{
+    color: #555;
+    max-width: 480px;
+    margin: 60px auto;
+}
+.create label span{
+    display: block;
+    margin: 30px 0 10px;
+}
+.create p{
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+.create button{
+    display: block;
+    
+    width: 100px;
+    font-size: 1em;
+    color: #fff;
+    padding: 8px 8px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #ef233c;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px auto;
+}
+.create button:hover {
+    background-color: #e7364a;
+    transition: 0.2s ease-in-out all;
+}
+.ingridients{
+    display: flex;
+    align-items: center;
+}
+.ingridients button{
+    margin: 0 0 0 10px;
+}
