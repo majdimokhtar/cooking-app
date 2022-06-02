@@ -11,15 +11,15 @@ export default function Create() {
   const [method,setMethod]=useState("")
   const [cookingTime,setCookingTime]=useState("")
   const [newIngridient,setNewIngridient]=useState("")
-  const [image,setImage]=useState("")
+  const [img,setImg]=useState("")
   const [ingridients,setIngridients]=useState([])
   const ingridientInput =useRef(null)
   const {postData ,data, error} =useFetch("http://localhost:3000/recipes" , "POST")
 
   const handleSubmit = (e)=>{
     e.preventDefault()
-    console.log(image);
-    postData({title, image , ingridients , method , cookingTime : cookingTime +"minutes"})
+    console.log(img);
+    postData({title, img , ingridients , method , cookingTime : cookingTime +"minutes"})
   }
 // add ingridient without repeating
   const handleAdd = (e)=>{
@@ -47,10 +47,10 @@ export default function Create() {
       </h2>
       <form onSubmit={handleSubmit}>
       <label >
-          <span>Recipe Image(URL):</span>
+          <span>Recipe img(URL):</span>
           <input type="url" 
-          onChange={(e)=>setImage(e.target.value)}
-          value={image}
+          onChange={(e)=>setImg(e.target.value)}
+          value={img}
           required
           />
         </label>

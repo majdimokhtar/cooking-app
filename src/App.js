@@ -6,12 +6,19 @@ import Create from "./pages/create/Create"
 import Search from "./pages/search/Search"
 import Navbar from './components/Navbar';
 import { Redirect } from 'react-router-dom';
+import ThemeSelector from './components/ThemeSelector';
+import { useTheme } from './hooks/useTheme';
+
+
+//npm run dev to run json server then npm start
 
 function App() {
+  const {mode} = useTheme()
   return (
-    <div className="App">
+    <div className={`App ${mode}`}>
       <BrowserRouter>
       <Navbar/>
+      <ThemeSelector/>
       <Switch>
         <Route exact path='/'>
           <Home/>

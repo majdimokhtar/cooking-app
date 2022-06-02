@@ -2,8 +2,8 @@
   "recipes": [
     {
       "id": "1",
-      "title": "Veggie Stew",
       "img": "https://midwestfoodieblog.com/wp-content/uploads/2020/11/FINAL-vegan-lentil-stew-1-3.jpg",
+      "title": "Veggie Stew",
       "ingredients": [
         "1 Carrot",
         "1 Leek",
@@ -15,8 +15,8 @@
     },
     {
       "id": "2",
+      "img": "https://www.twopeasandtheirpod.com/wp-content/uploads/2021/03/Veggie-Pizza-8.jpg",
       "title": "Veggie Pizza",
-      "img": "https://cookieandkate.com/images/2020/10/best-veggie-pizza-recipe-1-550x824.jpg",
       "ingredients": [
         "1 Base",
         "Tomata pasata",
@@ -28,8 +28,8 @@
     },
     {
       "id": "3",
+      "img": "https://www.simplyrecipes.com/thmb/au60mVTA5EPLLknjdtQ9BYO0OC4=/1067x1067/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__08__dads-greek-salad-horiz-a-1600-bc71b85bc907414a9bb3179a923b58fc.jpg",
       "title": "Greek Salad",
-      "img": "https://www.simplyrecipes.com/thmb/yI45c3ZyZ-UpPE9tMKf0QwivhUc=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__08__dads-greek-salad-vertical-a-1600-d67fd37678a64815996f56e7ec02d452.jpg",
       "ingredients": [
         "1 Onion",
         "1 Block of Feta",
@@ -41,192 +41,17 @@
       "cookingTime": "35 minutes"
     },
     {
-      "title": "Pie",
+      "title": "Pizza Pepperoni",
+      "img": "https://www.atelierdeschefs.com/media/recette-e30299-pizza-pepperoni-tomate-mozza.jpg",
       "ingridients": [
-        "faar"
+        "1/2 cup pizza sauce",
+        "18 to 20 slices pepperoni",
+        "Flour for rolling and shaping dough",
+        "1/2 teaspoon ground black pepper"
       ],
-      "method": "sdqdqd",
-      "cookingTime": "7minutes",
-      "id": "uppRC_2"
-    },
-    {
-      "title": "1234",
-      "ingridients": [
-        "hiiii",
-        "liiii"
-      ],
-      "method": "truuue dat",
-      "cookingTime": "9minutes",
-      "id": "1nIV4KH"
-    },
-    {
-      "title": "Pizza",
-      "ingridients": [
-        "Fromage",
-        "tomatoes",
-        "cheese"
-      ],
-      "method": "blah blah blah",
-      "cookingTime": "45minutes",
-      "id": "nIeUNXv"
-    },
-    {
-      "title": "Pizza",
-      "ingridients": [
-        "Fromage",
-        "tomatoes",
-        "cheese"
-      ],
-      "method": "blah blah blah",
-      "cookingTime": "45minutes",
-      "id": "06diPei"
-    },
-    {
-      "title": "Pizzaaa",
-      "ingridients": [
-        "sqdqdq",
-        "sdqdqd"
-      ],
-      "method": "sqdqdqd",
-      "cookingTime": "4minutes",
-      "id": "lJKE-Hx"
-    },
-    {
-      "title": "sfsfsfs",
-      "image": "https://static01.nyt.com/images/2014/04/09/dining/09JPPIZZA2/09JPPIZZA2-superJumbo.jpg",
-      "ingridients": [
-        "sdffsd",
-        "ssfsf"
-      ],
-      "method": "sdffsdsfd",
-      "cookingTime": "6minutes",
-      "id": "PR2QYOk"
-    },
-    {
-      "title": "sqdqsdqdq",
-      "image": "sddqdq",
-      "ingridients": [
-        "sddddcc",
-        "sddsd",
-        "aaa"
-      ],
-      "method": "qdsqdqsd",
-      "cookingTime": "5minutes",
-      "id": "6kf48vt"
-    },
-    {
-      "title": "sqdqsdqdq",
-      "image": "sddqdq",
-      "ingridients": [
-        "sddddcc",
-        "sddsd",
-        "aaa"
-      ],
-      "method": "qdsqdqsd",
-      "cookingTime": "5minutes",
-      "id": "QGyo4he"
-    },
-    {
-      "title": "sqdqsdqdq",
-      "image": "sddqdq",
-      "ingridients": [
-        "sddddcc",
-        "sddsd",
-        "aaa"
-      ],
-      "method": "qdsqdqsd",
-      "cookingTime": "5minutes",
-      "id": "WDxjU0Z"
-    },
-    {
-      "title": "sdqddd",
-      "image": "qsdqd",
-      "ingridients": [
-        "aazzaz",
-        "zzz",
-        "zezeez"
-      ],
-      "method": "zzczczzc",
-      "cookingTime": "5minutes",
-      "id": "k-88MV4"
-    },
-    {
-      "title": "aaaaa",
-      "image": "pizzzzzzzz",
-      "ingridients": [
-        "zzazaz",
-        "ssss"
-      ],
-      "method": "zzzzzzzz",
-      "cookingTime": "10minutes",
-      "id": "vsal433"
-    },
-    {
-      "title": "pizzzzz",
-      "image": "azazaza",
-      "ingridients": [
-        "sssscscsc",
-        "aaaa",
-        "aaaaaa"
-      ],
-      "method": "zzzczczc",
-      "cookingTime": "-1minutes",
-      "id": "plL7Z3Z"
-    },
-    {
-      "title": "pizzzaaaa",
-      "image": "121212",
-      "ingridients": [
-        "121212"
-      ],
-      "method": "jhkhkjhkj",
-      "cookingTime": "7minutes",
-      "id": "jMBxXjW"
-    },
-    {
-      "title": "qsqdsdqs",
-      "image": "\"https://www.alfaforni.com/wp-content/uploads/2018/08/pizza-come-in-pizzeria.jpg\"",
-      "ingridients": [
-        "sdqdqd",
-        "qsdsqd"
-      ],
-      "method": "qsdqdqd",
-      "cookingTime": "6minutes",
-      "id": "LZc3f5b"
-    },
-    {
-      "title": "fffff",
-      "image": "\"https://www.alfaforni.com/wp-content/uploads/2018/08/pizza-come-in-pizzeria.jpg\"",
-      "ingridients": [
-        "ffff",
-        "fff",
-        "f"
-      ],
-      "method": "ssdsdds",
-      "cookingTime": "6minutes",
-      "id": "e4nXHiB"
-    },
-    {
-      "title": "zzzzzzz",
-      "image": "data:image/jpeg;base64,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",
-      "ingridients": [
-        "saa",
-        "ssasas",
-        "aaaa"
-      ],
-      "method": "scscsc",
-      "cookingTime": "5minutes",
-      "id": "IRxFODV"
-    },
-    {
-      "title": "21212121",
-      "image": "https://www.simplyrecipes.com/thmb/ZYWI_DyV9yXSS6Mb0xYnlbUgUbo=/3330x2220/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Homemade-Pizza-METHOD-10-01f70ecc84ea4a63bb5a723e5a027a09.jpg",
-      "ingridients": [
-        "222"
-      ],
-      "method": "kkjkjjkjk",
-      "cookingTime": "9minutes",
-      "id": "3gdLomW"
+      "method": "If you're using a pizza stone, carefully slide pizza into the center of the preheated pizza stone. Cook for 6 minutes, then rotate the pizza halfway so it cooks evenly. Cook for another 6-8 minutes, or until the crust is golden brown and charred in spots.\n\nIf you're using a skillet, press the dough into a cast iron skillet and add toppings. Place the skillet over a high heat burner for 2 minutes to get it preheated and get the crust cooking right away. Then transfer to a 500 ̊F oven and bake for 10 to 12 minutes, or until the crust is golden brown.",
+      "cookingTime": "60minutes",
+      "id": "puKhCU4"
     }
   ]
 }
