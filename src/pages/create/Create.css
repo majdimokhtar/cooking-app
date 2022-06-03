@@ -36,3 +36,9 @@
 .ingridients button{
     margin: 0 0 0 10px;
 }
+
+.create.dark,
+.create.dark h2
+{
+    color: #edf2f4;
+}

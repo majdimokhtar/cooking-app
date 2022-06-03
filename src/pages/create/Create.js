@@ -1,7 +1,9 @@
 import React from 'react'
-import { useState,useRef , useEffect } from 'react'
+import { useState,useRef  } from 'react'
 import {  useHistory } from 'react-router-dom'
-import { useFetch } from '../../hooks/useFetch'
+import { projectFirestore } from '../../firebase/config'
+// import { useFetch } from '../../hooks/useFetch'
+import { useTheme } from '../../hooks/useTheme'
 // styles
 import "./Create.css"
 
@@ -14,12 +16,20 @@ export default function Create() {
   const [img,setImg]=useState("")
   const [ingridients,setIngridients]=useState([])
   const ingridientInput =useRef(null)
-  const {postData ,data, error} =useFetch("http://localhost:3000/recipes" , "POST")
+  const {mode} =useTheme()
+  // const {postData ,data, error} =useFetch("http://localhost:3000/recipes" , "POST")
 
-  const handleSubmit = (e)=>{
+  const handleSubmit = async (e)=>{
     e.preventDefault()
     console.log(img);
-    postData({title, img , ingridients , method , cookingTime : cookingTime +"minutes"})
+    const doc = ({title, img , ingridients , method , cookingTime : cookingTime +"minutes"})
+    try {
+      await projectFirestore.collection("recipes").add(doc)
+      history.push("/")
+    } catch (err) {
+      console.log(err);
+    }
+    
   }
 // add ingridient without repeating
   const handleAdd = (e)=>{
@@ -32,16 +42,10 @@ export default function Create() {
     ingridientInput.current.focus()
   }
 
-    // redirect the user after we get the data
-    useEffect(() => {
-      if (data) {
-          //redirect
-          //history.goback
-          setTimeout(()=>{history.push("/")},500)
-      }
-    }, [data,history])
+
+
   return (
-    <div className='create'>
+    <div className={`create ${mode}`}>
       <h2 className="page-title">
         Add a New Recipe
       </h2>

@@ -22,6 +22,7 @@
     width: 100%;
     height: 15vw;
     object-fit: cover;
+    opacity: 0.9;
 }
 .recipes-list .card h3{
     color: #333;
@@ -59,4 +60,14 @@ background: #555;
 .recipes-list .card.dark h3,
 .recipes-list .card.dark div{
     color: #edf2f4;
+}
+
+/* delete */
+.delete{
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    filter: invert(60%);
 }
